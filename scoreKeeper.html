@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scoreKeeper.css">
+    <title>Score Keeper</title>
+
+</head>
+
+<body>
+    <div class="image">
+        <img src="icons/scoreKeeper.jpg" alt="An image is here">
+        <h2>Ping Pong Game keeper</h2>
+    </div>
+    <h1 class="score">
+        <span id="score1">0</span> to
+        <span id="score2">0</span>
+    </h1>
+    <p>Use button to keep scores</p>
+    <div>
+        <label for="play">Playing To
+        <select name="max-score" id="play">
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    </label>
+    </div>
+    <div class="maxScore"></div>
+
+    <div class="downButton">
+        <button id="player1">+ player 1</button>
+        <button id="player2">+ player 2</button>
+        <button id="reset">reset</button>
+    </div>
+
+    <script src="scoreKeeper.js"></script>
+</body>
+
+</html>
